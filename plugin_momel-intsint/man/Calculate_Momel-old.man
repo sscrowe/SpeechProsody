@@ -1,0 +1,5 @@
+ManPagesTextFile
+"Calculate Momel" "Daniel Hirst" 20061103 0
+<intro> "This script calculates Momel pitch targets (stored as %filename.%momel) for each folder (%filename) in the subdirectory that contains a pitch file (%filename.%hz)"
+
+#this version is now obsolete

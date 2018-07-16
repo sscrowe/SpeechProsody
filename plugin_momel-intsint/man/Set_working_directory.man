@@ -1,0 +1,8 @@
+ManPagesTextFile
+"Set working directory" "Daniel Hirst" 20080706 0
+<intro> "This function sets the ##working directory# which will be used for your analyses."
+<normal> "This main directory will contain at least one sub-directory, each containing at least one recording directory."
+<normal> "The default values of the script set the working directory to a folder called %test. This contains a subdirectory %test1 containing sound files which will need to be converted to sound directories, using the function @@Create recording directories@ before running analyses."
+<normal> "This function also defines your current operating system, fixing a number of related parameters."
+<normal> "The default value is %%Mac OSX%. You will need to change this if this is not the operating system you currently use."
+<normal> "The script needs to be run once before you run the analysis scripts."

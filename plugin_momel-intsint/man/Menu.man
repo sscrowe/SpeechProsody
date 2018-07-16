@@ -1,0 +1,22 @@
+ManPagesTextFile
+"Menu" "Daniel Hirst" 20080713 0
+<intro> "The ##Momel Intsint# plugin adds a number of functions to #Praat. "
+<normal> "These functions all assume that the data to be analysed is to be found in a main directory, which we call the ##working directory# (eg %Corpus) and which contains a number (possibly only one) of sub-directories (eg %Speaker01, %Speaker02)"
+<normal> "The working directory, together with some Operating System-specific parameters, is defined by the function @@Set working directory@."
+<normal> "Each sub-directory (corresponding for example to a particular speaker) will contain at least one recording directory, each of which will contain a sound and its related analysis files."
+<normal> "The sound and the analysis files will each have the same name as the recording directory plus a specific file extension (eg .wav .hz .momel etc)"
+<normal> "These  recording directories can be created manually or obtained automatically from a directory containing different sound files with the script @@Create recording directories@."
+<normal> "As an example, the working directory %Corpus may contain a subfolder  %Speaker05 which in turn contains %recording01, %recording02 etc."
+<normal> "The sound itself may be called %recording01.%wav. If there is a TextGrid file associated with the sound, it will be called %recording01.%TextGrid etc."
+<normal> "The different files created by the analysis will all be stored in the same folder (%recording01) e.g. %recording01.%hz (f0 file), %recording01.%momel (momel targets), %recording01.%intsint (intsint labels), %recording01.%log (log file containing a record of the date, name and version of script used when each file was created)."
+<normal> "There are also a number of parameters such as pitch_step min_f0, max_f0, which are stored in the same folder in ascii files with appropriate names %recording01.%pitch_step etc..."
+<normal> "The functions added by the plugin are: "
+<list_item> "Plugin_Manual - the script which opened this page"
+<list_item> "@@Set working directory@"
+<list_item> "@@Create recording directories@"
+<list_item> "@@Detect f0@"
+<list_item> "@@Calculate Momel@"
+<list_item> "@@Correct Momel@"
+<list_item> "@@Calculate Intsint@"
+<list_item> "@@Manipulation@"
+
